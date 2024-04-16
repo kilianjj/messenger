@@ -1,2 +1,8 @@
-# messenger
-Basic encrypted messenger .NET program. Generates private and public keys with the RSA algorithm that can be stored locally and on a server respectfully. Can get and send keys to/from server. Same with messages.
+# Simple .NET Core messaging application 
+Basic encrypted messenger app. 
+
+### Encryption:
+Uses RSA public key encryption algorithm. Uses multi-threading to decrease time spent on generating large prime key values.
+
+### Server:
+Uses GET and PUT requests to a WebAPI configured server to get and put public keys and messages. 
